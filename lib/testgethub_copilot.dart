@@ -5,14 +5,28 @@ class Armss extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Row widget with 3 Button widgets with Text widgets
-   return Row(
+    // Row widget with 3 Button
+    return Row(
       children: [
-        ElevatedButton(onPressed: (){}, child: Text('1')),
-        ElevatedButton(onPressed: (){}, child: Text('2')),
-        ElevatedButton(onPressed: (){}, child: Text('2'))
+        // Button 1
+        ElevatedButton(
+          child: Text('Button 1'),
+          onPressed: () {},
+        ),
+        // Button 2
+        ElevatedButton(
+          child: Text('Button 2'),
+          onPressed: () {},
+        ),
+        // Button 3
+        ElevatedButton(
+          child: Text('Button 3'),
+          onPressed: () {},
+        ),
       ],
-    ); 
+    );
+   
+   
     
   }
 }
