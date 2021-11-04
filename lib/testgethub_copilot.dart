@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class Armss extends StatelessWidget {
-  const Armss({Key? key}) : super(key: key);
+class Button_test extends StatelessWidget {
+  const Button_test({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    // Row widget with 3 Button
+    // Row widget with 3 Buttons
     return Row(
       children: [
         // Button 1
@@ -30,3 +30,5 @@ class Armss extends StatelessWidget {
     
   }
 }
+
+
